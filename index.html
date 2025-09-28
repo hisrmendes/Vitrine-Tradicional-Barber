@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitrine Tradicional Barber</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --primary: #1c3d1a;
+      --medium: #b68742;
+      --detail: #f26027;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navbar -->
+  <header class="bg-[var(--primary)] text-white fixed w-full z-50 shadow">
+    <div class="container mx-auto flex justify-between items-center p-3">
+      <img src="images/Logo.png" alt="Vitrine Logo" class="h-10 w-20 mr-3"
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#home" class="hover:text-[var(--detail)]">Vitrine Tradicional Barber</a>
+        <a href="#services" class="hover:text-[var(--detail)]">Servicios</a>
+        <a href="#gallery" class="hover:text-[var(--detail)]">Galería</a>
+        <a href="#contact" class="hover:text-[var(--detail)]">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/p/AF1QipP3Iba2_-ruUOjkJhXjb85letbvnBb5cM5neQ87=s1360-w1360-h1020-rw">
+    <div class="bg-black bg-opacity-50 p-8 rounded-xl text-center text-white">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Estilo y tradición</h2>
+      <p class="text-lg md:text-2xl mb-6">El corte que valora tu identidad</p>
+      <a href="#services" class="bg-[var(--detail)] px-6 py-3 rounded-lg text-lg font-semibold hover:bg-orange-600 transition">Conoce nuestros servicios</a>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="services" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-[var(--primary)] mb-12">Servicios y precios</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 shadow p-6 rounded-xl border-t-4 border-[var(--detail)]">
+          <h4 class="text-xl font-semibold mb-2">Haircut / Corte de pelo</h4>
+          <p class="text-gray-600 mb-4">30 min</p>
+          <span class="text-[var(--medium)] font-bold text-lg">€20</span>
+          <div>
+          <a href="https://wa.me/+34625913502" target="_blank" class="bg-[var(--detail)] px-3 py-2 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">Programar ahora</a>
+        </div>
+        </div>
+        <div class="bg-gray-50 shadow p-6 rounded-xl border-t-4 border-[var(--detail)]">
+          <h4 class="text-xl font-semibold mb-2">Beardtrim / Arreglo de barba</h4>
+          <p class="text-gray-600 mb-4">30 min</p>
+          <span class="text-[var(--medium)] font-bold text-lg">€15</span>
+          <div>
+          <a href="https://wa.me/+34625913502" target="_blank" class="bg-[var(--detail)] px-3 py-2 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">Programar ahora</a>
+        </div>
+        </div>
+        <div class="bg-gray-50 shadow p-6 rounded-xl border-t-4 border-[var(--detail)]">
+          <h4 class="text-xl font-semibold mb-2">Haircut & Beard / Corte de pelo y barba</h4>
+          <p class="text-gray-600 mb-4">45 min</p>
+          <span class="text-[var(--medium)] font-bold text-lg">€30</span>
+          <div>
+          <a href="https://wa.me/+34625913502" target="_blank" class="bg-[var(--detail)] px-3 py-2 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">Programar ahora</a>
+        </div>
+        </div>
+        <div class="bg-gray-50 shadow p-6 rounded-xl border-t-4 border-[var(--detail)]">
+        <h4 class="text-xl font-semibold mb-2">Ear and nose wax / depilación cera oreja y nariz</h4>
+        <p class="text-gray-600 mb-4">10 min</p>
+        <span class="text-[var(--medium)] font-bold text-lg">€10</span>
+        <div>
+          <a href="https://wa.me/+34625913502" target="_blank" class="bg-[var(--detail)] px-3 py-2 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">Programar ahora</a>
+        </div>
+        </div>
+       <div class="bg-gray-50 shadow p-6 rounded-xl border-t-4 border-[var(--detail)]">
+          <h4 class="text-xl font-semibold mb-2">Vitrine Special</h4>
+          <p class="text-gray-600 mb-4">60 min</p>
+          <span class="text-[var(--medium)] font-bold text-lg">€35</span>
+          <div>
+          <a href="https://wa.me/+34625913502" target="_blank" class="bg-[var(--detail)] px-3 py-2 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">Programar ahora</a>
+        </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="gallery" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-[var(--primary)] mb-12">Nuestra Galería</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+       <img src="images/58daf05f-4c69-4b68-a528-522274e78ac1-VitrineBarbershop-ES-Catalunya-Barcelona-Leixample-Fresha.avif" alt="inside Vitrine" class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="images/ab71fa39-0940-4ed1-b1fe-d4c978fde641-VitrineBarbershop-ES-Catalunya-Barcelona-Leixample-Fresha.avif" alt="barber cutting hair" class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="images/f0b62f0d-fb48-45aa-baef-fdf269e2a65e-VitrineBarbershop-ES-Catalunya-Barcelona-Leixample-Fresha.avif" alt="barber shaving beard" class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="images/Vitrine Chair.jpg" alt="Barber Chair" class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="images/eb709161-f1e9-4e4c-abc8-e48991e9b32a-VitrineBarbershop-ES-Catalunya-Barcelona-Leixample-Fresha.avif" alt="Haircut" class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="images/055485be-a123-469a-b123-6787f0526074-VitrineBarbershop-ES-Catalunya-Barcelona-Leixample-Fresha.avif" alt="inside Vitrine and a man" class="w-full h-64 object-cover rounded-lg shadow">
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-[var(--primary)] mb-8">Contacto</h3>
+      <p class="mb-4 text-gray-600">¡Programe su horario o pide tu factura!</p>
+      <a href="https://wa.me/+34625913502" target="_blank" class="bg-[var(--detail)] px-6 py-3 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">WhatsApp</a>
+      <a href="mailton:thebarbershop.vitrine@gmail.com?subject=Factura&body=Hola,%20me%20gustaría%20una%20factura." target="_blank" class="bg-[var(--detail)] px-6 py-3 rounded-lg text-lg font-semibold text-white hover:bg-orange-600 transition inline-block mb-8">E-Mail</a>
+      <div class="w-full h-80">
+        <iframe class="w-full h-full rounded-xl shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.8302330809015!2d2.14789197574372!3d41.377772996592014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3003a59a605%3A0x646e957b4c853a96!2sVitrine%20Tradicional%20Barber!5e0!3m2!1spt-BR!2ses!4v1759009558214!5m2!1spt-BR!2ses" width=" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--primary)] text-white text-center py-6 mt-10">
+    <p>© 2025 Vitrine Tradicional Barber - Todos los derechos reservados.</p>
+    <p class="mt-2">
+      Siga-nos:
+      <a href="https://www.instagram.com/vitrinetradicionalbarber/" target="_blank" class="underline hover:text-[var(--detail)]">Instagram</a> 
+    </p>By Sr. Mendes <Sr class="Hiago Mendes"></Sr>
+  </footer>
+</body>
+</html>
